@@ -53,55 +53,6 @@ Ce dépôt propose un pipeline complet pour la classification de genres musicaux
 Toutes les sorties (rapports, matrices de confusion, courbes d’apprentissage) sont déjà
 générées et disponibles dans results/.
 
-📂 Structure du projet
-.
-├── src/
-│   ├── config.py
-│   ├── create_splits.py
-│   ├── dataset_wav2vec.py
-│   ├── explore_dataset.py
-│   ├── train_baseline.py
-│   ├── train_wav2vec_FFT.py
-│   ├── train_wav2vec_HFT.py
-│   ├── utils.py
-│   └── preprocessing/
-│       ├── remove_corrupted_audio.py
-│       ├── check_audio_file.py
-│       ├── regenerate_labels.py
-│       ├── fix_labels_from_tsv.py
-│       ├── train_with_cleanup.py
-│       ├── test_load_model.py
-│       ├── test_model.py
-│       ├── evaluate_wav2vec_testset.py
-│       ├── generate_confusion_matrix.py
-│       └── plot_learning_curves.py
-│
-├── data/
-│   └── processed/
-│       ├── file_metadata.csv
-│       ├── corrupted_files.csv
-│       └── audio_features_sample.csv
-│
-└── results/
-    ├── FFT_results/
-    │   ├── classification_report.txt
-    │   ├── confusion_matrix.png
-    │   ├── learning_curves.png
-    │   ├── overfitting_analysis.png
-    │   └── errors_detail.txt
-    │
-    ├── HFT_results/
-    │   ├── classification_report.txt
-    │   ├── Hconfusion_matrix.png
-    │   ├── Hlearning_curves.png
-    │   ├── Hoverfitting_analysis.png
-    │   └── errors_detail.txt
-    │
-    └── figures/
-        ├── 01_dataset_statistics.png
-        ├── 02_spectrograms_by_genre.png
-        └── 03_train_val_test_splits.png
-
 ⚙️ Prérequis
 ✔️ Recommandé
 
