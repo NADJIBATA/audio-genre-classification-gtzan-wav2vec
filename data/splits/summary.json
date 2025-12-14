@@ -1,0 +1,70 @@
+{
+  "dataset": "GTZAN Music Genre Classification",
+  "total_files": 999,
+  "corrupted_files": 1,
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "num_classes": 10,
+  "splits": {
+    "train": {
+      "count": 699,
+      "percentage": 69.97,
+      "distribution": {
+        "blues": 70,
+        "classical": 70,
+        "country": 70,
+        "disco": 70,
+        "hiphop": 70,
+        "jazz": 69,
+        "metal": 70,
+        "pop": 70,
+        "reggae": 70,
+        "rock": 70
+      }
+    },
+    "val": {
+      "count": 150,
+      "percentage": 15.02,
+      "distribution": {
+        "blues": 15,
+        "classical": 15,
+        "country": 15,
+        "disco": 15,
+        "hiphop": 15,
+        "jazz": 15,
+        "metal": 15,
+        "pop": 15,
+        "reggae": 15,
+        "rock": 15
+      }
+    },
+    "test": {
+      "count": 150,
+      "percentage": 15.02,
+      "distribution": {
+        "blues": 15,
+        "classical": 15,
+        "country": 15,
+        "disco": 15,
+        "hiphop": 15,
+        "jazz": 15,
+        "metal": 15,
+        "pop": 15,
+        "reggae": 15,
+        "rock": 15
+      }
+    }
+  },
+  "random_seed": 42,
+  "stratified": true
+}
