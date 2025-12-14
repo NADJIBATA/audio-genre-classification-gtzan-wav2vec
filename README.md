@@ -1,3 +1,45 @@
+🔧 Installation de Fairseq + Modèle pré-entraîné Wav2Vec 2.0
+
+Fairseq doit être installé depuis la source, car l’installation via pip install fairseq pose souvent des problèmes avec les versions récentes de Python.
+
+1️⃣ Cloner et installer Fairseq
+git clone https://github.com/facebookresearch/fairseq.git
+cd fairseq
+pip install --editable ./
+
+
+⚠️ Important : utiliser Python 3.9 ou 3.10 pour éviter des erreurs dataclass default_factory.
+
+2️⃣ Télécharger un modèle pré-entraîné Wav2Vec 2.0 (Fairseq)
+
+Tu dois télécharger un checkpoint .pt compatible Fairseq, par exemple :
+
+🔹 Wav2Vec 2.0 Base (95M paramètres)
+wget https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_small.pt
+
+3️⃣ Organisation recommandée dans ton projet
+
+Place les modèles dans :
+
+models/
+└── wav2vec/
+    ├── wav2vec_small.pt
+  
+
+📌 Installation complète pour Wav2Vec 2.0 + Fairseq
+# 1. Cloner Fairseq
+git clone https://github.com/facebookresearch/fairseq.git
+cd fairseq
+
+# 2. Installer Fairseq (mode editable recommandé)
+pip install --editable ./
+
+# 3. Télécharger un modèle pré-entraîné Wav2Vec 2.0
+mkdir -p ../models/wav2vec
+cd ../models/wav2vec
+wget https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_small.pt
+
+
 🎵 Audio Genre Classification (GTZAN) avec Wav2Vec 2.0 & CNN
 
 Ce dépôt propose un pipeline complet pour la classification de genres musicaux (10 classes du dataset GTZAN) via :
@@ -8,7 +50,8 @@ Ce dépôt propose un pipeline complet pour la classification de genres musicaux
 
 ❄️ Wav2Vec 2.0 head-only fine-tuning (HFT) (backbone gelé)
 
-Toutes les sorties (rapports, matrices de confusion, courbes d’apprentissage) sont déjà générées et disponibles dans results/.
+Toutes les sorties (rapports, matrices de confusion, courbes d’apprentissage) sont déjà
+générées et disponibles dans results/.
 
 📂 Structure du projet
 .
