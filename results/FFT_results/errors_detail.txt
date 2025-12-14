@@ -1,0 +1,55 @@
+ERREURS DE CLASSIFICATION
+================================================================================
+
+country_country.00016.wav
+  Vraie classe:  country
+  Classe prédite: blues
+
+hiphop_hiphop.00030.wav
+  Vraie classe:  hiphop
+  Classe prédite: disco
+
+rock_rock.00031.wav
+  Vraie classe:  rock
+  Classe prédite: disco
+
+country_country.00036.wav
+  Vraie classe:  country
+  Classe prédite: blues
+
+rock_rock.00072.wav
+  Vraie classe:  rock
+  Classe prédite: country
+
+pop_pop.00005.wav
+  Vraie classe:  pop
+  Classe prédite: disco
+
+disco_disco.00041.wav
+  Vraie classe:  disco
+  Classe prédite: country
+
+metal_metal.00091.wav
+  Vraie classe:  metal
+  Classe prédite: rock
+
+pop_pop.00043.wav
+  Vraie classe:  pop
+  Classe prédite: reggae
+
+rock_rock.00006.wav
+  Vraie classe:  rock
+  Classe prédite: country
+
+hiphop_hiphop.00095.wav
+  Vraie classe:  hiphop
+  Classe prédite: metal
+
+country_country.00015.wav
+  Vraie classe:  country
+  Classe prédite: rock
+
+rock_rock.00062.wav
+  Vraie classe:  rock
+  Classe prédite: blues
+

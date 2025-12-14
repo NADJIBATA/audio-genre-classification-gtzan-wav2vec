@@ -1,0 +1,103 @@
+ERREURS DE CLASSIFICATION
+================================================================================
+
+rock_rock.00079.wav
+  Vraie classe:  rock
+  Classe prédite: country
+
+hiphop_hiphop.00030.wav
+  Vraie classe:  hiphop
+  Classe prédite: disco
+
+blues_blues.00070.wav
+  Vraie classe:  blues
+  Classe prédite: country
+
+rock_rock.00031.wav
+  Vraie classe:  rock
+  Classe prédite: disco
+
+rock_rock.00072.wav
+  Vraie classe:  rock
+  Classe prédite: country
+
+country_country.00006.wav
+  Vraie classe:  country
+  Classe prédite: jazz
+
+pop_pop.00005.wav
+  Vraie classe:  pop
+  Classe prédite: metal
+
+disco_disco.00041.wav
+  Vraie classe:  disco
+  Classe prédite: country
+
+blues_blues.00071.wav
+  Vraie classe:  blues
+  Classe prédite: rock
+
+pop_pop.00064.wav
+  Vraie classe:  pop
+  Classe prédite: hiphop
+
+metal_metal.00091.wav
+  Vraie classe:  metal
+  Classe prédite: rock
+
+hiphop_hiphop.00010.wav
+  Vraie classe:  hiphop
+  Classe prédite: disco
+
+blues_blues.00010.wav
+  Vraie classe:  blues
+  Classe prédite: jazz
+
+pop_pop.00007.wav
+  Vraie classe:  pop
+  Classe prédite: jazz
+
+blues_blues.00004.wav
+  Vraie classe:  blues
+  Classe prédite: country
+
+jazz_jazz.00066.wav
+  Vraie classe:  jazz
+  Classe prédite: classical
+
+disco_disco.00005.wav
+  Vraie classe:  disco
+  Classe prédite: country
+
+pop_pop.00077.wav
+  Vraie classe:  pop
+  Classe prédite: disco
+
+pop_pop.00043.wav
+  Vraie classe:  pop
+  Classe prédite: reggae
+
+blues_blues.00037.wav
+  Vraie classe:  blues
+  Classe prédite: jazz
+
+disco_disco.00044.wav
+  Vraie classe:  disco
+  Classe prédite: country
+
+rock_rock.00047.wav
+  Vraie classe:  rock
+  Classe prédite: metal
+
+hiphop_hiphop.00095.wav
+  Vraie classe:  hiphop
+  Classe prédite: metal
+
+country_country.00015.wav
+  Vraie classe:  country
+  Classe prédite: rock
+
+blues_blues.00090.wav
+  Vraie classe:  blues
+  Classe prédite: reggae
+
